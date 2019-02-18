@@ -1,0 +1,40 @@
+{
+    "name": "NetSuite-Mockable",
+    "_connectorId": "",
+    "install": [
+        {
+            "imageURI": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALEAAACUCAMAAADrljhyAAAAllBMVEX///8AAAATUn22x9X4+PhfX18AQXPL1+Hp7/Po7PBMbpADTXoAOG1vb2+/ztpWVlafn5/S0tLg4ODx8fG4uLh9fX11dXVcepgoKCiPj48ASHjb4+pJSUk4ODjp6eloaGhBQUEbGxvJycmqqqoSEhIxMTGGhoaXl5fAwcKarb4sW4R6k6uGnbM7ZYoAM2uoucgAImMAGV+XUj89AAAEVklEQVR4nO2aaWOiOhRAiSK2dYkQtYgIigtObTtv/v+fm6wQFtHWtoY393yoSXpJjpgVtSwAAAAAAAAAAAAAAAAAAIB/jocLPN5bsMzju9PMfw/3VixBnE4zwzYa98d9jXHffONxtwgYgzEYg3ELjIeDKkYbPzw9V3kZFI0ZxhjTnRDRodkH0g0Kxjajb4yxJYQEquh3oBtzTDLud8eCbr5jODlmGyvGWRnJunJbjK3lS9uMra7TNmPr1Wmbsf0ctMyYduVBy4ytvtMa46V8/eW0xfhJnZ9PQUuMhyeZsN8G7TAOnN/qf4P3dhh3HLXF6LbFePCmnredluUoM407wbNMqy2o8cad4eu5KFONO4PxmShzjQfL+ihjjenos2ujzDXuBKfaKIONO86vuiiTjTtBvybKaOPBSzb6luOMO3nmNBjThcRuvPY+aMbyMYv2SCh4tUmVO78NrYdybN24Ewyr/Llzx2g2rmN456+bwBiMwRiM/5/Gj8si5htXcWq+MdN5N8747amZN+OMHy9h4oYOAAAAAMyn8NuOLG0XqZZo15AocSPtmYT2U5FCRqZq66mtuZ4E9xiuyKU0hyOamIhiSRxZZNYrMY/4JccR4oSLI+EFJMaLrHqvh7cqGeIpey3Xg1nbC609PGk0nor25uJ98dY9mpghHd+zIoxKrFicvdBKDrwSskFxVr2L0CJPcpVyPShRDStm1xgj/vateb3xvs547YkLNr3tdJqOVgj1hLGPRk3GWOAjJBKhy413WBFedY/Rpsn47D2mFptEVORt/euMZVelTZG8147QKrqyHytjUVvReD0fCWiXJQueWPFbPmPpQ8TDpllV0YFcYyxhxnmOGmu564x9r2KcVsNnxX5Gb3zlhvyYMTpUjBfVcF4+z7K9QrM/aLzfsb/up4yn5ZAfMZ7wYRWWjfFEkLrnjFPam5JSv/issXflA3JuvE3kDHdmrthm4SVjm80y4eEY3W68W4eSdc34KRtPhOqanDHOP/mSsZVsZAjeercZa1yxgkws1+f3cvZRY8uNVdA+vcl4M1scJJWhUWdsHdjrrlcw9tcrzr7BmE7D03glhm56i/EHR57okZKL8/G8UkySlK4tO/cnjdmwLxtfnt00PCxHKDVu3Al9mTHBtxlbW7EIWdYerbLCJJ9ovtw4X/0+aUynDTHIaf/ICicIHb/N2MIfNiae9q+pqicWVah4lf4GY7dsvIol82yFKBpH/iRrx47F3pyeSlDWkel9xyriG4zFMnJmf1xvHKJQOrPFB4vllQ69nZhmvLU24XyHseefMd6fM16zbDhLDyGdkH31SRzZm5xNUja797JNwheveYLFxXs8Lxjb230ehN1ipaIw33GUjEcF41hvrtmYnaWxWtNsdqLljaTls7SEnbGxtrJEiexK66P+qbqi1J9qheosLUkxJnru6rP0V0Cimj5IoqhaCAAAAAAAAAAAAAAAAAAA8M/wF95SdjvVbeznAAAAAElFTkSuQmCC",
+            "completed": false,
+            "name": "NetSuite-Connector Connection2",
+            "description": "Please Provide Netsuite Credentials",
+            "installerFunction": "nsExportInstaller",
+            "_connectionId": ""
+        },
+        {
+            "imageURI": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4AmiKUdJBKZ9-hmZz-HMtRTqXjK6uxLTQpRSbGT05cM2U2Ltv7g",
+            "completed": false,
+            "name": "Mockable-Connector Connection",
+            "description": "Please Provide Mockable Credentials",
+            "installerFunction": "mockableImportInstaller",
+            "_connectionId":""
+        }
+    ],
+    "mode":"install",
+    "settings":{
+        "sections":[
+            {
+                "title":"NS-Mockable-Flows",
+                "description":"This section contains NetSuite Customers in Mockable connection",
+                "columns":1,
+                "flows":[
+                    {
+                        "_id":"",
+                        "showMapping":true,
+                        "showSchedule":true,
+                        "disabled":true
+                    }
+                ]
+            }
+        ]
+    }
+}

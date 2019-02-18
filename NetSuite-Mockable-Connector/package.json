@@ -1,0 +1,17 @@
+{
+  "name": "netsuite-mockable-connector",
+  "version": "1.0.0",
+  "description": "My connector between the NetSuite and the Mockable",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "sriramPendyala",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^2.6.2",
+    "express-integrator-extension": "^0.2.4",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
+  }
+}
